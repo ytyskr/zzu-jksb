@@ -85,7 +85,7 @@ class Log:
                     if ('感谢' in notis) or ('已经填报' in notis):
                         today = "{} --> 打卡成功 -->  ^_^\n".format(str(time.strftime(u"%Y-%m-%d  %H : %M: %S", time.localtime(time.time() + 8*3600))))
                         print(today)
-                        Wechat("打卡成功",today)
+                        Wechat("打卡成功啦",today)
                         #self.fp.writelines(today)
                         time.sleep(3)
                     else:
